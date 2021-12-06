@@ -15,9 +15,9 @@ PERSIST = True
 WORKER_PORT = 3012
 BOOTSTRAP_ADDRS = '139.180.182.227'.split(' ')
 ANNOUNCE_CHANNEL = '#p2pool-creditcoin'
-VERSION_CHECK = lambda v: None if 170401 <= v else 'AustraliaCash version too old. Upgrade to 0.17.4.1 or newer!'
+VERSION_CHECK = lambda v: None if 150100 <= v else 'CreditCoin version too old. Upgrade to 0.15.1.0 or newer!'
 VERSION_WARNING = lambda v: None
-SOFTFORKS_REQUIRED = set(['bip65', 'csv', 'segwit'])
+# SOFTFORKS_REQUIRED = set(['bip65', 'csv', 'segwit'])
 MINIMUM_PROTOCOL_VERSION = 3301
 NEW_MINIMUM_PROTOCOL_VERSION = 3301
 SEGWIT_ACTIVATION_VERSION = 17
